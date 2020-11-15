@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 KC_Q,               KC_W,               KC_E,               KC_R,               KC_T,                  KC_Y,                KC_U,               KC_I,                  KC_O,                 KC_P,
 KC_A,               KC_S,               KC_D,               KC_F,               KC_G,                  KC_H,                KC_J,               KC_K,                  KC_L,                 LT(FUN,KC_SCLN),
 MT(MOD_LSFT,KC_Z),  MT(MOD_LALT,KC_X),  MT(MOD_LCTL,KC_C),  MT(MOD_LGUI,KC_V),  MEH_T(KC_B),           MEH_T(KC_N),         MT(MOD_LGUI,KC_M),  MT(MOD_LCTL,KC_COMM),  MT(MOD_LALT,KC_DOT),  MT(MOD_RSFT,KC_SLSH),
-LT(SYMB,KC_ESC),    MO(NUMB),           LT(NAVI,KC_SPC),    LT(NAVI,KC_ENT),    MT(MOD_LCTL,KC_BSPC),  MT(MOD_LGUI,KC_DEL)
+MO(SYMB),           MO(NUMB),           LT(NAVI,KC_SPC),    LT(NAVI,KC_ENT),    MT(MOD_LCTL,KC_BSPC),  MT(MOD_LGUI,KC_DEL)
 ),
 [NAVI] = LAYOUT_gergoplex(
 KC_VOLU,  KC_NO,    KC_UP,    KC_NO,         KC_NO,  KC_NO,    KC_NO,    KC_NO,  KC_NO,    KC_NO,
@@ -50,7 +50,7 @@ KC_LSFT,  KC_LALT,  KC_LCTL,  KC_LGUI,  KC_SPC,   KC_TILD,  KC_AMPR,  KC_ASTR,  
 KC_NO,    KC_NO,    KC_NO,    KC_ENT,   KC_BSPC,  KC_NO
 ),
 [NUMB] = LAYOUT_gergoplex(
-KC_NO,    KC_NO,    KC_LPRN,  KC_RPRN,  LCTL(KC_P),  KC_EQL,   KC_1,  KC_2,  KC_3,  KC_BSLS,
+KC_ESC,   KC_NO,    KC_LPRN,  KC_RPRN,  LCTL(KC_P),  KC_EQL,   KC_1,  KC_2,  KC_3,  KC_BSLS,
 KC_NO,    KC_NO,    KC_LCBR,  KC_RCBR,  KC_TAB,      KC_MINS,  KC_4,  KC_5,  KC_6,  KC_QUOT,
 KC_LSFT,  KC_LALT,  KC_LBRC,  KC_RBRC,  LCTL(KC_N),  KC_GRV,   KC_7,  KC_8,  KC_9,  KC_0,
 KC_NO,    KC_NO,    KC_SPC,   KC_ENT,   KC_BSPC,     KC_DOT
