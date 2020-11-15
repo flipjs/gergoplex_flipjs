@@ -58,5 +58,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USB_MAX_POWER_CONSUMPTION 500
 #define COMBO_TERM 40
 
-// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
-#define TAPPING_FORCE_HOLD
+// Uncomment below to enable rapid switch from tap to hold (caveat - it disables double tap hold auto-repeat)
+// #define TAPPING_FORCE_HOLD
