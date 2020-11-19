@@ -45,15 +45,15 @@ KC_NO,    KC_NO,    KC_SPC,   LGUI(KC_SPC),  KC_NO,  KC_NO
 ),
 [SYMB] = LAYOUT_gergoplex(
 KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_PLUS,  KC_EXLM,  KC_AT,    KC_HASH,  KC_PIPE,
-KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_UNDS,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_DQUO,
+KC_ESC,   KC_NO,    KC_NO,    KC_NO,    KC_TAB,   KC_UNDS,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_DQUO,
 KC_LSFT,  KC_LALT,  KC_LCTL,  KC_LGUI,  KC_SPC,   KC_TILD,  KC_AMPR,  KC_ASTR,  KC_LPRN,  KC_RPRN,
 KC_NO,    KC_NO,    KC_NO,    KC_ENT,   KC_BSPC,  KC_NO
 ),
 [NUMB] = LAYOUT_gergoplex(
-KC_ESC,   KC_NO,    KC_LPRN,  KC_RPRN,  LCTL(KC_P),  KC_EQL,   KC_1,  KC_2,  KC_3,  KC_BSLS,
-KC_NO,    KC_NO,    KC_LCBR,  KC_RCBR,  KC_TAB,      KC_MINS,  KC_4,  KC_5,  KC_6,  KC_QUOT,
-KC_LSFT,  KC_LALT,  KC_LBRC,  KC_RBRC,  LCTL(KC_N),  KC_GRV,   KC_7,  KC_8,  KC_9,  KC_0,
-KC_NO,    KC_NO,    KC_SPC,   KC_ENT,   KC_BSPC,     KC_DOT
+KC_NO,    KC_NO,    KC_LPRN,  KC_RPRN,  KC_NO,    KC_EQL,   KC_1,  KC_2,  KC_3,  KC_BSLS,
+KC_ESC,   KC_NO,    KC_LCBR,  KC_RCBR,  KC_TAB,   KC_MINS,  KC_4,  KC_5,  KC_6,  KC_QUOT,
+KC_LSFT,  KC_LALT,  KC_LBRC,  KC_RBRC,  KC_SPC,   KC_GRV,   KC_7,  KC_8,  KC_9,  KC_0,
+KC_NO,    KC_NO,    KC_SPC,   KC_ENT,   KC_BSPC,  KC_DOT
 ),
 [FUN] = LAYOUT_gergoplex(
 KC_PSCR,  KC_F1,   KC_F2,  KC_F3,  KC_F10,  KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,
