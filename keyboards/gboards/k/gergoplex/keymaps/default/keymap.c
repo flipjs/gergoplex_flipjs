@@ -38,9 +38,9 @@ MT(MOD_LSFT,KC_Z),  MT(MOD_LALT,KC_X),  MT(MOD_LCTL,KC_C),  MT(MOD_LGUI,KC_V),  
 MO(SYMB),           MO(NUMB),           LT(NAVI,KC_SPC),    LT(NAVI,KC_ENT),    MT(MOD_LCTL,KC_BSPC),  KC_LGUI
 ),
 [NAVI] = LAYOUT_gergoplex(
-KC_ESC,         KC_NO,         KC_UP,    KC_NO,         KC_NO,    KC_VOLD,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_VOLU,
-KC_NO,          KC_LEFT,       KC_DOWN,  KC_RIGHT,      KC_NO,    KC_LEFT,  KC_DOWN,  KC_UP,    KC_RGHT,  KC_MUTE,
-KC_LSFT,        KC_LALT,       KC_LCTL,  KC_LGUI,       KC_MEH,   KC_MEH,   KC_LGUI,  KC_LCTL,  KC_LALT,  KC_LSFT,
+KC_ESC,         KC_NO,         KC_UP,    KC_NO,         KC_BTN3,  KC_VOLD,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_VOLU,
+KC_NO,          KC_LEFT,       KC_DOWN,  KC_RIGHT,      KC_BTN1,  KC_LEFT,  KC_DOWN,  KC_UP,    KC_RGHT,  KC_MUTE,
+KC_LSFT,        KC_LALT,       KC_LCTL,  KC_LGUI,       KC_BTN2,  KC_MEH,   KC_LGUI,  KC_LCTL,  KC_LALT,  KC_LSFT,
 LSFT(KC_COMM),  LSFT(KC_DOT),  KC_SPC,   LGUI(KC_SPC),  KC_LCTL,  KC_LGUI
 ),
 [SYMB] = LAYOUT_gergoplex(
@@ -56,9 +56,9 @@ KC_LSFT,     KC_LALT,  KC_LBRC,  KC_RBRC,  LCTL(KC_N),  KC_GRV,   KC_7,  KC_8,  
 KC_NO,       KC_NO,    KC_SPC,   KC_ENT,   KC_LCTL,     KC_LGUI
 ),
 [FUN] = LAYOUT_gergoplex(
-KC_PSCR,  KC_F1,    KC_F2,  KC_F3,  KC_F10,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,
+KC_PSCR,  KC_F1,    KC_F2,  KC_F3,  KC_F10,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  RESET,
 KC_SLCK,  KC_F4,    KC_F5,  KC_F6,  KC_F11,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,
 KC_PAUS,  KC_F7,    KC_F8,  KC_F9,  KC_F12,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,
-KC_INS,   KC_CAPS,  KC_NO,  KC_NO,  RESET,   KC_NO
+KC_INS,   KC_CAPS,  KC_NO,  KC_BTN3, KC_BTN1, KC_BTN2
 )
 };
