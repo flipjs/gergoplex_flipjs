@@ -50,8 +50,8 @@ KC_LSFT,     KC_LALT,  KC_LCTL,  KC_LGUI,  LCTL(KC_N),  KC_TILD,  KC_AMPR,  KC_A
 KC_NO,       KC_NO,    KC_SPC,   KC_ENT,   KC_BSPC,     KC_DEL
 ),
 [NUMB] = LAYOUT_gergoplex(
-KC_ESC,      KC_RBRC,  KC_RPRN,  KC_RCBR,  LCTL(KC_P),  KC_EQL,   KC_1,  KC_2,  KC_3,  KC_BSLS,
-LCTL(KC_A),  KC_LBRC,  KC_LPRN,  KC_LCBR,  KC_TAB,      KC_MINS,  KC_4,  KC_5,  KC_6,  KC_QUOT,
+KC_ESC,      KC_LBRC,  KC_LPRN,  KC_RPRN,  LCTL(KC_P),  KC_EQL,   KC_1,  KC_2,  KC_3,  KC_BSLS,
+LCTL(KC_A),  KC_RBRC,  KC_LCBR,  KC_RCBR,  KC_TAB,      KC_MINS,  KC_4,  KC_5,  KC_6,  KC_QUOT,
 KC_LSFT,     KC_LALT,  KC_LCTL,  KC_LGUI,  LCTL(KC_N),  KC_GRV,   KC_7,  KC_8,  KC_9,  KC_0,
 KC_NO,       KC_NO,    KC_SPC,   KC_ENT,   KC_BSPC,     KC_DEL
 ),
