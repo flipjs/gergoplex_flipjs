@@ -15,6 +15,8 @@
 #define NUMB 3 // number layer
 #define FUN  4 // function layer
 
+#define KC_NA KC_NO
+
 /* Combomap
  *
  * ,-----------------------------.       ,--------------------------------.
@@ -50,27 +52,27 @@ MT(MOD_LSFT,KC_Z),  MT(MOD_LALT,KC_X),  MT(MOD_LCTL,KC_C),  MT(MOD_LGUI,KC_V),  
 MO(SYMB),           MO(NUMB),           LT(NAVI,KC_SPC),    LT(NAVI,KC_ENT),    MT(MOD_LCTL,KC_BSPC),  KC_LGUI
 ),
 [NAVI] = LAYOUT_gergoplex(
-KC_ESC,         KC_NO,         KC_UP,       KC_NO,         LCTL(KC_P),  KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,
+KC_ESC,         KC_NA,         KC_UP,       KC_NA,         LCTL(KC_P),  KC_NA,    KC_NA,    KC_NA,    KC_NA,    KC_NA,
 LGUI(KC_A),     KC_LEFT,       KC_DOWN,     KC_RGHT,       KC_TAB,      KC_LEFT,  KC_DOWN,  KC_UP,    KC_RGHT,  KC_MUTE,
 LGUI(KC_Z),     LGUI(KC_X),    LGUI(KC_C),  LGUI(KC_V),    LCTL(KC_N),  KC_VOLD,  KC_VOLU,  KC_MPRV,  KC_MNXT,  KC_MPLY,
-LSFT(KC_COMM),  LSFT(KC_DOT),  KC_SPC,      LGUI(KC_SPC),  KC_NO,       KC_NO
+LSFT(KC_COMM),  LSFT(KC_DOT),  KC_SPC,      LGUI(KC_SPC),  KC_NA,       KC_NA
 ),
 [SYMB] = LAYOUT_gergoplex(
-KC_NO,       KC_LBRC,  KC_LPRN,  KC_RPRN,  KC_NO,    KC_PLUS,  KC_EXLM,  KC_AT,    KC_HASH,  KC_PIPE,
-LCTL(KC_A),  KC_RBRC,  KC_LCBR,  KC_RCBR,  KC_NO,    KC_UNDS,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_DQUO,
-KC_LSFT,     KC_LALT,  KC_LCTL,  KC_LGUI,  KC_NO,    KC_TILD,  KC_AMPR,  KC_ASTR,  KC_LPRN,  KC_RPRN,
-KC_NO,       KC_NO,    KC_SPC,   KC_ENT,   KC_BSPC,  KC_DEL
+KC_NA,       KC_LBRC,  KC_LPRN,  KC_RPRN,  KC_NA,    KC_PLUS,  KC_EXLM,  KC_AT,    KC_HASH,  KC_PIPE,
+LCTL(KC_A),  KC_RBRC,  KC_LCBR,  KC_RCBR,  KC_NA,    KC_UNDS,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_DQUO,
+KC_LSFT,     KC_LALT,  KC_LCTL,  KC_LGUI,  KC_NA,    KC_TILD,  KC_AMPR,  KC_ASTR,  KC_LPRN,  KC_RPRN,
+KC_NA,       KC_NA,    KC_SPC,   KC_ENT,   KC_BSPC,  KC_DEL
 ),
 [NUMB] = LAYOUT_gergoplex(
-KC_NO,       KC_LBRC,  KC_LPRN,  KC_RPRN,  KC_NO,    KC_EQL,   KC_1,  KC_2,  KC_3,  KC_BSLS,
-LCTL(KC_A),  KC_RBRC,  KC_LCBR,  KC_RCBR,  KC_NO,    KC_MINS,  KC_4,  KC_5,  KC_6,  KC_QUOT,
-KC_LSFT,     KC_LALT,  KC_LCTL,  KC_LGUI,  KC_NO,    KC_GRV,   KC_7,  KC_8,  KC_9,  KC_0,
-KC_NO,       KC_NO,    KC_SPC,   KC_ENT,   KC_BSPC,  KC_DOT
+KC_NA,       KC_LBRC,  KC_LPRN,  KC_RPRN,  KC_NA,    KC_EQL,   KC_1,  KC_2,  KC_3,  KC_BSLS,
+LCTL(KC_A),  KC_RBRC,  KC_LCBR,  KC_RCBR,  KC_NA,    KC_MINS,  KC_4,  KC_5,  KC_6,  KC_QUOT,
+KC_LSFT,     KC_LALT,  KC_LCTL,  KC_LGUI,  KC_NA,    KC_GRV,   KC_7,  KC_8,  KC_9,  KC_0,
+KC_NA,       KC_NA,    KC_SPC,   KC_ENT,   KC_BSPC,  KC_DOT
 ),
 [FUN] = LAYOUT_gergoplex(
-KC_PSCR,  KC_F1,    KC_F2,  KC_F3,  KC_F10,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  RESET,
-KC_SLCK,  KC_F4,    KC_F5,  KC_F6,  KC_F11,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,
-KC_PAUS,  KC_F7,    KC_F8,  KC_F9,  KC_F12,  KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,
-KC_INS,   KC_CAPS,  KC_NO,  KC_NO,  KC_NO,   KC_NO
+KC_PSCR,  KC_F1,    KC_F2,  KC_F3,  KC_F10,  KC_NA,  KC_NA,  KC_NA,  KC_NA,  RESET,
+KC_SLCK,  KC_F4,    KC_F5,  KC_F6,  KC_F11,  KC_NA,  KC_NA,  KC_NA,  KC_NA,  KC_NA,
+KC_PAUS,  KC_F7,    KC_F8,  KC_F9,  KC_F12,  KC_NA,  KC_NA,  KC_NA,  KC_NA,  KC_NA,
+KC_INS,   KC_CAPS,  KC_NA,  KC_NA,  KC_NA,   KC_NA
 )
 };
