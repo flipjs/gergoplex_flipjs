@@ -59,4 +59,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define COMBO_TERM 40
 
 // Uncomment below to enable rapid switch from tap to hold (caveat - it disables double tap hold auto-repeat)
-// #define TAPPING_FORCE_HOLD
+#define TAPPING_FORCE_HOLD
