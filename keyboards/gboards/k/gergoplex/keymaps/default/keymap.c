@@ -7,7 +7,7 @@
  */
 
 #include QMK_KEYBOARD_H
-#include "g/keymap_combo.h"
+/* #include "g/keymap_combo.h" */
 
 #define BASE 0 // default layer
 #define NAVI 1 // nav layer
